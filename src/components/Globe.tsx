@@ -41,7 +41,7 @@ export default function Globe({ className }: { className?: string }) {
                 { location: [37.7595, -122.4367], size: 0.03 },
                 { location: [40.7128, -74.006], size: 0.1 },
             ],
-            onRender: (state: any) => {
+            onRender: (state: Record<string, any>) => {
                 // This prevents rotation while dragging
                 if (!pointerInteracting.current) {
                     // Called on every animation frame.
@@ -58,7 +58,7 @@ export default function Globe({ className }: { className?: string }) {
             globe.destroy();
             window.removeEventListener('resize', onResize);
         }
-    }, [])
+    }, [r])
 
     return (
         <div style={{ width: '100%', maxWidth: 600, aspectRatio: 1 }} className={className}>

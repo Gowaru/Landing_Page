@@ -38,7 +38,7 @@ export default function Testimonials() {
                         >
                             <Quote className="w-12 h-12 text-cyan-accent/20 absolute top-8 left-8" />
                             <p className="text-xl md:text-2xl text-foreground/80 dark:text-white/80 mb-8 relative z-10 italic">
-                                "{t.quote}"
+                                "&quot;{t.quote}&quot;"
                             </p>
                             <div>
                                 <h4 className="font-bold text-foreground dark:text-white text-lg">{t.author}</h4>

@@ -23,7 +23,7 @@ export default function Contact() {
                         transition={{ delay: 0.1 }}
                         className="text-foreground/60 dark:text-white/60 max-w-xl mx-auto"
                     >
-                        Have questions about Aether? We're here to help you scale your digital presence.
+                        Have questions about Aether? We&apos;re here to help you scale your digital presence.
                     </motion.p>
                 </div>
 
